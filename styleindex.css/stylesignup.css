@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #24353F;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.content{
+    background-color: #09c;
+    width: 80%;
+    height: 80%;
+}
+h2{
+    color: #17A2B8;
+} */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #24353F; /* Dark background */
+    color: #00bcd4; /* Bright text color */
+    font-family: 'Arial', sans-serif; /* Modern font */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #24353F; /* Slightly lighter background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width:60% ;
+    height: 70%;
+}
+h2{
+    margin: 20px;
+}
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin: 30px 0;
+    border: 1px #CED4DA solid;
+    border-radius: 5px;
+    background-color: #24353F;
+    outline: none;
+    color: #fff;
+     
+     
+}
+
+.container input:focus {
+    width: 100%;
+    padding: 10px;
+    margin: 30px 0;
+    border: 1px #CED4DA solid;
+    border-radius: 5px;
+    background-color: #24353F;
+    color: #fff;
+     
+     
+}
+.container input::placeholder { /* Standard */
+    color:#CED4DA ;
+  }
+
+button {
+    background-color: #24353F; /* Login button color */
+    color: white;
+    padding: 10px;
+    border: 2px solid #0097a7;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0097a7; /* Darker shade on hover */
+}
+
+h4{
+    color: #fff;
+    font-size: 20px;
+}
+h4 a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+h4 a:hover{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
